@@ -44,7 +44,7 @@ Use relevant, separately authorized sources to distill useful relationship conte
 
 ## Relationship choices and reminders
 
-Record clear agreed plans, promised follow-ups, and supported important dates without extra approval. Assume Ricardo wants to make plans unless he explicitly says otherwise and that boundary is recorded in the person note. Unknown metadata stays unknown; preserve existing values when adding supported location, relationship tags, or interaction preferences.
+Record clear agreed plans, promised follow-ups, and supported important dates without extra approval. Assume the user wants to make plans unless they explicitly say otherwise and that boundary is recorded in the person note. Unknown metadata stays unknown; preserve existing values when adding supported location, relationship tags, or interaction preferences.
 
 Use configured circles. New, unclassified, or missing-circle records use `needs-triage` until user choice or evidence supports a substantive circle. `reference` means no contact intent; `passive` means an explicit choice against recurring reminders. Repair a missing circle with `fam person update PATH --circle needs-triage`, not a guessed relationship classification.
 
@@ -60,6 +60,6 @@ Use `important_events` for birthdays, anniversaries, and one-off dates. Preserve
 
 ## Identity and external actions
 
-Propose likely duplicate records to Ricardo with exact paths and evidence; confirm the match before consolidating identity. After confirmation, add alternate names to canonical `aliases` and cross-link the other record under `## Other references`. Preserve both records unless a merge or deletion is explicitly requested. Record rejected matches with enough disambiguation to avoid repeating them.
+Propose likely duplicate records to the user with exact paths and evidence; confirm the match before consolidating identity. After confirmation, add alternate names to canonical `aliases` and cross-link the other record under `## Other references`. Preserve both records unless a merge or deletion is explicitly requested. Record rejected matches with enough disambiguation to avoid repeating them.
 
 FAM does not read or send messages. External sources require separate authorization; report unavailable sources. Relationship maintenance and reminders do not authorize messages, invitations, reactions, or message edits.
